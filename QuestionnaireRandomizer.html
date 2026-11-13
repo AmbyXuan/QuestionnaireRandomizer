@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>問卷載入中...</title>
+  <script>
+    const urls = [
+      "https://www.surveycake.com/s/你的組別1網址",
+      "https://www.surveycake.com/s/你的組別2網址",
+      "https://www.surveycake.com/s/你的組別3網址",
+      "https://www.surveycake.com/s/你的組別4網址"
+    ];
+    const randomUrl = urls[Math.floor(Math.random() * urls.length)];
+    window.location.replace(randomUrl);
+  </script>
+</head>
+<body>
+  <p>正在為您跳轉至問卷頁面，請稍候...</p>
+</body>
+</html>
